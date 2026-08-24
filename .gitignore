@@ -1,0 +1,68 @@
+# --- Data & large artifacts ---
+data/**
+!data/.gitkeep
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.zip
+*.tar
+*.tar.gz
+*.gz
+
+# --- Trained models / checkpoints ---
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+models/
+checkpoints/
+runs/
+mlruns/
+wandb/
+lightning_logs/
+
+# --- Python ---
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.Python
+pip-wheel-metadata/
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Environment / secrets ---
+.env
+.env.*
+*.key
+
+# --- IDE / editor ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+
+# --- Logs / caches ---
+*.log
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
